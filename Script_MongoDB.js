@@ -4,11 +4,11 @@ db.createCollection('evento');
 
 show collections
 
-db.evento.insert({nome:"Flavio", sobrenome:"Brito", email:"flaviobrito@live.com"});
+db.evento.insert({nome:"Flavio", sobrenome:"Brito", email:"teste_teste@live.com"});
 
 db.evento.find()
 
-db.evento.insert([{nome:"Antonio", sobrenome:"Jose", email:"ajose@gmail.com"},{nome:"Jose", sobrenome:"Manoel", email:"jmanoel@gmail.com"}]);
+db.evento.insert([{nome:"Antonio", sobrenome:"Jose", email:"teste_test2@gmail.com"},{nome:"Jose", sobrenome:"Manoel", email:"teste_test3@gmail.com"}]);
 
 db.evento.find()
 
